@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "426D44451CFE319800C6CAA4"
+               BlueprintIdentifier = "EC3CECAC1A9C02BB009D441D"
                BuildableName = "Trax.app"
                BlueprintName = "Trax"
                ReferencedContainer = "container:Trax.xcodeproj">
@@ -28,11 +28,21 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC3CECC11A9C02BC009D441D"
+               BuildableName = "TraxTests.xctest"
+               BlueprintName = "TraxTests"
+               ReferencedContainer = "container:Trax.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "426D44451CFE319800C6CAA4"
+            BlueprintIdentifier = "EC3CECAC1A9C02BB009D441D"
             BuildableName = "Trax.app"
             BlueprintName = "Trax"
             ReferencedContainer = "container:Trax.xcodeproj">
@@ -55,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "426D44451CFE319800C6CAA4"
+            BlueprintIdentifier = "EC3CECAC1A9C02BB009D441D"
             BuildableName = "Trax.app"
             BlueprintName = "Trax"
             ReferencedContainer = "container:Trax.xcodeproj">
@@ -74,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "426D44451CFE319800C6CAA4"
+            BlueprintIdentifier = "EC3CECAC1A9C02BB009D441D"
             BuildableName = "Trax.app"
             BlueprintName = "Trax"
             ReferencedContainer = "container:Trax.xcodeproj">

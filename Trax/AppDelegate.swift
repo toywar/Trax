@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Trax
 //
-//  Created by Роман Екимов on 31.05.16.
-//  Copyright © 2016 Роман Екимов. All rights reserved.
+//  Created by CS193p Instructor.
+//  Copyright (c) 2015 Stanford University. All rights reserved.
 //
 
 import UIKit
@@ -14,16 +14,17 @@ struct GPXURL {
 }
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
     var window: UIWindow?
-    
-    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool
+    {
+        // post a notification when a GPX file arrives
         let center = NSNotificationCenter.defaultCenter()
         let notification = NSNotification(name: GPXURL.Notification, object: self, userInfo: [GPXURL.Key:url])
         center.postNotification(notification)
         return true
     }
-    
 }
 
